@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  
+	  <!-- NuGet Package Properties -->
+	  <PackageId>LayuSoft.ResultPattern</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>LayuSoft</Authors>
+	  <Company>Layusoft</Company>
+	  <Description>A clean, functional result pattern implementation for .NET applications</Description>
+	  <PackageTags>result-pattern;error-handling;functional;csharp</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/layusoft/lyresult</RepositoryUrl>
+
+	  <!-- Generate XML documentation -->
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <EmbedAllSources>true</EmbedAllSources>
+  </PropertyGroup>
+
+</Project>
